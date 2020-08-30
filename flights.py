@@ -94,5 +94,5 @@ def flight_tracking(doc):
     
 # SERVER CODE
 apps = {'/': Application(FunctionHandler(flight_tracking))}
-server = Server(apps, port=8084) #define an unused port
+server = Server(apps, port=8080) #define an unused port
 server.start()
